@@ -6,11 +6,23 @@
              mc:Ignorable="d"
              x:Class="TesteDrive.MainPage">
 
-    <StackLayout>
+    <Grid VerticalOptions="Start">
         <!-- Place new controls here -->
-        <Label Text="Azera" />
-        <Label Text="Fiesta" />
-        <Label Text="HB20 S" />
-    </StackLayout>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Text="Azera" />
+        <Label Grid.Row="0" Grid.Column="1" Text="60000" />
+        <Label Grid.Row="1" Grid.Column="0" Text="Fiesta" />
+        <Label Grid.Row="1" Grid.Column="1" Text="50000" />
+        <Label Grid.Row="2" Grid.Column="0" Text="HB20 S" />
+        <Label Grid.Row="2" Grid.Column="1" Text="40000" />
+    </Grid>
 
 </ContentPage>
