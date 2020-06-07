@@ -1,0 +1,14 @@
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\bin\Debug\netstandard2.0\TesteDrive.deps.json
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\bin\Debug\netstandard2.0\TesteDrive.dll
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\bin\Debug\netstandard2.0\ref\TesteDrive.dll
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\bin\Debug\netstandard2.0\TesteDrive.pdb
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.csprojAssemblyReference.cache
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.AssemblyInfoInputs.cache
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.AssemblyInfo.cs
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.csproj.CoreCompileInputs.cache
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\XamlC.stamp
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.dll
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\ref\TesteDrive.dll
+E:\dev-projects\Xamarin\TesteDrive\TesteDrive\TesteDrive\obj\Debug\netstandard2.0\TesteDrive.pdb
