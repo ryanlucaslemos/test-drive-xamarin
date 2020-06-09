@@ -17,6 +17,11 @@ namespace TesteDrive
         public MainPage()
         {
             InitializeComponent();
+
+            listViewVeiculos.ItemsSource = new string[]
+            {
+                "Fiesta", "HB20", "Civic"
+            };
         }
     }
 }
