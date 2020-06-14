@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TesteDrive.MainPage">
+             Title="Test Drive"
+             x:Class="TesteDrive.Views.ListagemView">
 
     <ListView x:Name="listViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25"
               ItemTapped="listViewVeiculos_ItemTapped"

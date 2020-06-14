@@ -1,5 +1,7 @@
 ﻿using System;
 
+using TesteDrive.Views;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +13,7 @@ namespace TesteDrive
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ListagemView());
         }
 
         protected override void OnStart()

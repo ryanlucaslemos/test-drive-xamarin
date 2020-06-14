@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace TesteDrive
+namespace TesteDrive.Views
 {
     public class Veiculo
     {
@@ -19,10 +19,10 @@ namespace TesteDrive
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
-    public partial class MainPage : ContentPage
+    public partial class ListagemView : ContentPage
     {
         public List<Veiculo> Veiculos { get; set; }
-        public MainPage()
+        public ListagemView()
         {
             InitializeComponent();
             Veiculos = new List<Veiculo>()
@@ -39,7 +39,9 @@ namespace TesteDrive
         {
             var veiculo = (Veiculo)e.Item;
 
-            DisplayAlert("Test Drive", $"Você tocou no modelo {veiculo.Nome}, que custa {veiculo.PrecoFormatado}", "Ok");
+            //DisplayAlert("Test Drive", $"Você tocou no modelo {veiculo.Nome}, que custa {veiculo.PrecoFormatado}", "Ok");
+
+            Navigation.PushAsync(new DetalheView());
         }
     }
 }
