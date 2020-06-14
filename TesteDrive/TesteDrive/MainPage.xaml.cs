@@ -13,6 +13,7 @@ namespace TesteDrive
     {
         public string Nome { get; set; }
         public decimal Preco { get; set; }
+        public string PrecoFormatado { get => $"R${Preco}"; }
     }
 
     // Learn more about making custom code visible in the Xamarin.Forms previewer
@@ -32,6 +33,13 @@ namespace TesteDrive
             };
 
             BindingContext = this;
+        }
+
+        private void listViewVeiculos_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var veiculo = (Veiculo)e.Item;
+
+            DisplayAlert("Test Drive", $"Você tocou no modelo {veiculo.Nome}, que custa {veiculo.PrecoFormatado}", "Ok");
         }
     }
 }
